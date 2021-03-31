@@ -1,5 +1,5 @@
-folder1 branch git_1 secondFile.txt line1;
-folder1 branch git_1 secondFile.txt line2;
+folder1 branch git_1 secondFile.txt line1; Updated folder1 branch git_2
+folder1 branch git_1 secondFile.txt line2; Updated folder1 branch git_2
 folder1 branch git_1 secondFile.txt line3;
 folder1 branch git_1 secondFile.txt line4;
 folder1 branch git_1 secondFile.txt line5;
