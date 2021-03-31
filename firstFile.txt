@@ -1,8 +1,8 @@
 folder1 branch git_1 firstFile.txt line1; Updated folder1 branch git_1
 folder1 branch git_1 firstFile.txt line2; Updated folder1 branch git_1
 folder1 branch git_1 firstFile.txt line3;
-folder1 branch git_1 firstFile.txt line4;
-folder1 branch git_1 firstFile.txt line5;
+folder1 branch git_1 firstFile.txt line4; Updated folder1 branch git_1
+folder1 branch git_1 firstFile.txt line5; Updated folder1 branch git_1
 folder1 branch git_1 firstFile.txt line6;
 folder1 branch git_1 firstFile.txt line7;
 folder1 branch git_1 firstFile.txt line8;
