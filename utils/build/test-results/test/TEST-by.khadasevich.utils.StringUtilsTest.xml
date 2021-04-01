@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="by.khadasevich.utils.StringUtilsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-01T10:54:00" hostname="DESKTOP-KHVORD5" time="0.038">
+  <properties/>
+  <testcase name="isPositiveNumber()" classname="by.khadasevich.utils.StringUtilsTest" time="0.038"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
