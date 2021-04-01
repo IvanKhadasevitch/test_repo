@@ -1,0 +1,40 @@
+plugins {
+//    id 'java'
+    id 'application'
+}
+
+application {
+    mainClass = 'by.khadasevich.api.App'
+}
+
+group 'by.khadasevich'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+configurations {
+    // configuration that holds jars to include in the jar
+    extraLibs
+}
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+//    compile project(':core')
+    implementation project(':core')
+    extraLibs project(':core')
+}
+
+// executable jar
+jar {
+    manifest {
+        attributes 'Main-Class': 'by.khadasevich.api.App'
+    }
+//    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    from { configurations.extraLibs.collect { it.isDirectory() ? it : zipTree(it) } }
+}
+
+test {
+    useJUnitPlatform()
+}
