@@ -9,8 +9,7 @@ bin
 out
 tmp
 /build
-/*/build
-build/*
+/**/build
 .springBeans
 /.project
 /.classpath
