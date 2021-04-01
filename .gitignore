@@ -1,6 +1,7 @@
 .classpath
 .project
 .idea
+.gradle
 *.iml
 target
 bin
@@ -8,6 +9,7 @@ bin
 out
 tmp
 /build
+/*/build
 .springBeans
 /.project
 /.classpath
